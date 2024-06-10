@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "gcsv",
+	"version": "${version}",
+	"name": "elserver",
+	"authors": [
+		"Elaviers"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gcsv.GCSVMod"
+		]
+	},
+	"mixins": [
+		{
+			"config": "gcsv.mixins.json",
+			"environment": "*"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

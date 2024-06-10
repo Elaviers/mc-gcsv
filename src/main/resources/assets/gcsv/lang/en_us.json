@@ -1,0 +1,13 @@
+{
+  "commands.gcsv.goto.self": "You can't tp to yourself, dummy - Try using your brain",
+  "commands.gcsv.goto.noplayer": "Player not found",
+  "commands.gcsv.goto.success.reqsent": "Goto request sent to %s",
+  "commands.gcsv.goto.success.reqpending": "Goto request to %s is already pending",
+  "commands.gcsv.goto.success": "Teleported to %s",
+  "commands.gcsv.goto.success.3p": "%s teleported to you",
+  "commands.gcsv.goto.success.denied": "You aren't allowed to tp to %s",
+  "commands.gcsv.accept.request": "%s would like to teleport to you; Use /a %1$s to accept",
+  "commands.gcsv.accept.default.always": "Incoming goto requests will now be accepted by default",
+  "commands.gcsv.accept.default.never": "Incoming goto requests will now be rejected by default",
+  "commands.gcsv.accept.default.ask": "You will be notified of incoming goto requests"
+}

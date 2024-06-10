@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "gcsv.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinItem",
+    "MixinPlayerInventory"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
